@@ -1,0 +1,12 @@
+<?php
+
+use Phpmig\Console\PhpmigApplication;
+
+require __DIR__ . '/vendor/autoload.php';
+
+if (!defined('PHPMIG_VERSION')) {
+    define('PHPMIG_VERSION', 'dev');
+}
+
+$app = new PhpmigApplication(PHPMIG_VERSION);
+$app->run();

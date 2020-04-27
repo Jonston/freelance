@@ -1,0 +1,27 @@
+{% extends 'layouts/main.html.twig' %}
+{% block content %}
+    <div class="container">
+        {% include 'helpers/pagination.html.twig' with pagination %}
+        <table class="table table-bordered table-striped">
+            <thead>
+            <tr>
+                <th>Название</th>
+                <th>Бюджет</th>
+                <th>Заказчик</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for project in projects%}
+                <tr>
+                    <td>
+                        <a href="{{ project.link }}" target="_blank">{{ project.p_name }}</a>
+                    </td>
+                    <td>{{ project.budget }} <b>{{ project.currency }}</b></td>
+                    <td>{{ project.e_name }} <b>{{ project.login }}</b></td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+        {% include 'helpers/pagination.html.twig' with pagination %}
+    </div>
+{% endblock %}

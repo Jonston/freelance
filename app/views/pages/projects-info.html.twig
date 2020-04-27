@@ -1,0 +1,51 @@
+{% extends 'layouts/main.html.twig' %}
+{% block content %}
+    <div class="container" id="container">
+        <canvas id="chart" width="800" height="500"></canvas>
+    </div>
+{% endblock %}
+{% block scripts %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+{% endblock %}
+{% block script %}
+    <script>
+        let canvas = document.getElementById('chart'),
+            ctx = canvas.getContext('2d');
+
+        canvas.width = document.getElementById('container').offsetWidth;
+
+        Chart.defaults.global.defaultFontSize = 16;
+
+        var chart = new Chart(ctx,  {
+            type: 'pie',
+            data: {
+                datasets: [{
+                    data: [
+                        {{ groups.g1 }},
+                        {{ groups.g2 }},
+                        {{ groups.g3 }},
+                        {{ groups.g4 }}
+                    ],
+                    backgroundColor: [
+                        '#cfe1ff',
+                        '#8dbaff',
+                        '#4577ff',
+                        '#0023ff'
+                    ],
+                    label: 'Projects'
+                }],
+                labels: [
+                    'Менее 500',
+                    'От 500 до 1000',
+                    'От 1000 до 5000',
+                    'Более 5000',
+                ]
+            },
+            options: {
+                responsive: false
+            }
+        });
+
+        console.log(chart);
+    </script>
+{% endblock %}

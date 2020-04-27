@@ -1,0 +1,15 @@
+<nav aria-label="Page navigation example">
+    <ul class="pagination">
+        {% if pagination.prev %}
+            <li class="page-item"><a class="page-link" href="#">Предыдущая</a></li>
+        {% endif %}
+        {% for page in pagination.pages %}
+            <li class="page-item {% if page.isCurrent %}active disabled{% endif %}">
+                <a class="page-link" href="{{ page.url }}">{{ page.num }}</a>
+            </li>
+        {% endfor %}
+        {% if pagination.next %}
+            <li class="page-item"><a class="page-link" href="#">Следующая</a></li>
+        {% endif %}
+    </ul>
+</nav>
