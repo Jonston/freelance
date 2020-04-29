@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57c4ec4d-84bd-4a56-884f-36b0f8bf6924" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Project.php" afterPath="$PROJECT_DIR$/app/models/Project.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,17 +28,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            <state relative-caret-position="54">
+              <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -63,8 +64,18 @@
       <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/IndexController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            <state relative-caret-position="476">
+              <caret line="39" column="59" lean-forward="false" selection-start-line="39" selection-start-column="59" selection-end-line="39" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="projects-info.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/pages/projects-info.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -73,22 +84,20 @@
       <file leaf-file-name="Project.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/Project.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-63">
-              <caret line="83" column="40" lean-forward="false" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="40" />
+            <state relative-caret-position="71">
+              <caret line="92" column="20" lean-forward="true" selection-start-line="92" selection-start-column="20" selection-end-line="92" selection-end-column="20" />
               <folding>
-                <marker date="1587961393315" expanded="true" signature="812:1149" ph="SELECT * FRO... projects" />
-                <marker date="1587961393315" expanded="true" signature="812:1168" ph="SELECT p.id,... projects" />
-                <marker date="1587961393315" expanded="true" signature="1879:1886" ph="SELECT p.id,... projects" />
-                <marker date="1587961393315" expanded="true" signature="1879:1928" ph="SELECT COUNT... projects" />
-                <marker date="1587961393315" expanded="true" signature="1879:1930" ph="SELECT COUNT... " />
-                <marker date="1587961393315" expanded="true" signature="1879:2030" ph="SELECT COUNT... projects" />
-                <marker date="1587961393315" expanded="true" signature="1956:2029" ph="SELECT ps.pr... projects_skills" />
-                <marker date="1587961393315" expanded="true" signature="2538:2874" ph="SELECT IF (p... " />
-                <marker date="1587961393315" expanded="true" signature="2538:2923" ph="SELECT (SELE... projects" />
-                <marker date="1587961393315" expanded="true" signature="2556:2607" ph="SELECT COUNT... projects" />
-                <marker date="1587961393315" expanded="true" signature="2627:2700" ph="SELECT COUNT... projects" />
-                <marker date="1587961393315" expanded="true" signature="2720:2794" ph="SELECT COUNT... projects" />
-                <marker date="1587961393315" expanded="true" signature="2814:2867" ph="SELECT COUNT... projects" />
+                <marker date="1588166128185" expanded="true" signature="812:1149" ph="SELECT * FRO... projects" />
+                <marker date="1588166128185" expanded="true" signature="812:1168" ph="SELECT p.id,... projects" />
+                <marker date="1588166128185" expanded="true" signature="1879:1886" ph="SELECT p.id,... projects" />
+                <marker date="1588166128185" expanded="true" signature="1879:1928" ph="SELECT COUNT... projects" />
+                <marker date="1588166128185" expanded="true" signature="1879:1930" ph="SELECT COUNT... " />
+                <marker date="1588166128185" expanded="true" signature="1879:2030" ph="SELECT COUNT... projects" />
+                <marker date="1588166128185" expanded="true" signature="1956:2029" ph="SELECT ps.pr... projects_skills" />
+                <marker date="1588166128185" expanded="true" signature="2538:2769" ph="SELECT * // " />
+                <marker date="1588166128185" expanded="true" signature="2538:2777" ph="SELECT COUNT... " />
+                <marker date="1588166128185" expanded="true" signature="2538:2802" ph="SELECT *, SU... " />
+                <marker date="1588166128185" expanded="true" signature="2548:2769" ph="SELECT sum(I... projects" />
               </folding>
             </state>
           </provider>
@@ -160,11 +169,11 @@
         <option value="$PROJECT_DIR$/app/models/ParserLog.php" />
         <option value="$PROJECT_DIR$/app/views/pages/projects-info.html.twig" />
         <option value="$PROJECT_DIR$/app/views/pages/projects.html.twig" />
-        <option value="$PROJECT_DIR$/app/models/Project.php" />
-        <option value="$PROJECT_DIR$/app/controllers/IndexController.php" />
         <option value="$PROJECT_DIR$/tests/ProjectsModelTest.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/app/controllers/IndexController.php" />
+        <option value="$PROJECT_DIR$/app/models/Project.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -494,7 +503,7 @@
     <property name="javascript.nodejs.core.library.configured.version" value="10.6.0" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="SearchEverywhereHistoryKey" value="Inde&#9;FILE&#9;file://D:/OSPanel/domains/freelance.loc/app/controllers/IndexController.php&#10;proje&#9;FILE&#9;file://D:/OSPanel/domains/freelance.loc/app/models/Project.php&#10;sty&#9;FILE&#9;file://D:/OSPanel/domains/freelance.loc/public/css/style.css&#10;nav.&#9;FILE&#9;file://D:/OSPanel/domains/freelance.loc/app/views/blocks/nav.html.twig&#10;Par&#9;FILE&#9;file://D:/OSPanel/domains/freelance.loc/commands/ParseProjectsCommand.php&#10;route&#9;FILE&#9;file://D:/OSPanel/domains/freelance.loc/app/config/routes.php&#10;Route&#9;FILE&#9;file://D:/OSPanel/domains/freelance.loc/app/config/routes.php&#10;routes&#9;FILE&#9;file://D:/OSPanel/domains/freelance.loc/app/config/routes.php&#10;Index&#9;FILE&#9;file://D:/OSPanel/domains/freelance.loc/app/controllers/IndexController.php" />
+    <property name="SearchEverywhereHistoryKey" value="proje&#9;FILE&#9;file://D:/OSPanel/domains/freelance.loc/app/views/pages/projects-info.html.twig&#10;Inde&#9;FILE&#9;file://D:/OSPanel/domains/freelance.loc/app/controllers/IndexController.php&#10;sty&#9;FILE&#9;file://D:/OSPanel/domains/freelance.loc/public/css/style.css&#10;nav.&#9;FILE&#9;file://D:/OSPanel/domains/freelance.loc/app/views/blocks/nav.html.twig&#10;Par&#9;FILE&#9;file://D:/OSPanel/domains/freelance.loc/commands/ParseProjectsCommand.php&#10;route&#9;FILE&#9;file://D:/OSPanel/domains/freelance.loc/app/config/routes.php&#10;Route&#9;FILE&#9;file://D:/OSPanel/domains/freelance.loc/app/config/routes.php&#10;routes&#9;FILE&#9;file://D:/OSPanel/domains/freelance.loc/app/config/routes.php&#10;Index&#9;FILE&#9;file://D:/OSPanel/domains/freelance.loc/app/controllers/IndexController.php" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -534,12 +543,12 @@
       <option name="presentableId" value="Default" />
       <updated>1587264578869</updated>
       <workItem from="1587264580524" duration="58391000" />
-      <workItem from="1587768517191" duration="84787000" />
+      <workItem from="1587768517191" duration="94875000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143178000" />
+    <option name="totallyTimeSpent" value="153266000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -962,22 +971,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/projects-info.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="16" column="50" lean-forward="false" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/projects.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -994,33 +987,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/IndexController.php">
+    <entry file="file://$PROJECT_DIR$/freelance.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        <state relative-caret-position="6912">
+          <caret line="256" column="0" lean-forward="false" selection-start-line="256" selection-start-column="0" selection-end-line="256" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Project.php">
+    <entry file="file://$PROJECT_DIR$/app/views/pages/projects-info.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-63">
-          <caret line="83" column="40" lean-forward="false" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="40" />
-          <folding>
-            <marker date="1587961393315" expanded="true" signature="812:1149" ph="SELECT * FRO... projects" />
-            <marker date="1587961393315" expanded="true" signature="812:1168" ph="SELECT p.id,... projects" />
-            <marker date="1587961393315" expanded="true" signature="1879:1886" ph="SELECT p.id,... projects" />
-            <marker date="1587961393315" expanded="true" signature="1879:1928" ph="SELECT COUNT... projects" />
-            <marker date="1587961393315" expanded="true" signature="1879:1930" ph="SELECT COUNT... " />
-            <marker date="1587961393315" expanded="true" signature="1879:2030" ph="SELECT COUNT... projects" />
-            <marker date="1587961393315" expanded="true" signature="1956:2029" ph="SELECT ps.pr... projects_skills" />
-            <marker date="1587961393315" expanded="true" signature="2538:2874" ph="SELECT IF (p... " />
-            <marker date="1587961393315" expanded="true" signature="2538:2923" ph="SELECT (SELE... projects" />
-            <marker date="1587961393315" expanded="true" signature="2556:2607" ph="SELECT COUNT... projects" />
-            <marker date="1587961393315" expanded="true" signature="2627:2700" ph="SELECT COUNT... projects" />
-            <marker date="1587961393315" expanded="true" signature="2720:2794" ph="SELECT COUNT... projects" />
-            <marker date="1587961393315" expanded="true" signature="2814:2867" ph="SELECT COUNT... projects" />
-          </folding>
+        <state relative-caret-position="405">
+          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1032,18 +1011,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/app/views/pages/projects.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/freelance.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6912">
-          <caret line="256" column="0" lean-forward="false" selection-start-line="256" selection-start-column="0" selection-end-line="256" selection-end-column="0" />
+        <state relative-caret-position="297">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1056,6 +1027,42 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="39" column="59" lean-forward="false" selection-start-line="39" selection-start-column="59" selection-end-line="39" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Project.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="92" column="20" lean-forward="true" selection-start-line="92" selection-start-column="20" selection-end-line="92" selection-end-column="20" />
+          <folding>
+            <marker date="1588166128185" expanded="true" signature="812:1149" ph="SELECT * FRO... projects" />
+            <marker date="1588166128185" expanded="true" signature="812:1168" ph="SELECT p.id,... projects" />
+            <marker date="1588166128185" expanded="true" signature="1879:1886" ph="SELECT p.id,... projects" />
+            <marker date="1588166128185" expanded="true" signature="1879:1928" ph="SELECT COUNT... projects" />
+            <marker date="1588166128185" expanded="true" signature="1879:1930" ph="SELECT COUNT... " />
+            <marker date="1588166128185" expanded="true" signature="1879:2030" ph="SELECT COUNT... projects" />
+            <marker date="1588166128185" expanded="true" signature="1956:2029" ph="SELECT ps.pr... projects_skills" />
+            <marker date="1588166128185" expanded="true" signature="2538:2769" ph="SELECT * // " />
+            <marker date="1588166128185" expanded="true" signature="2538:2777" ph="SELECT COUNT... " />
+            <marker date="1588166128185" expanded="true" signature="2538:2802" ph="SELECT *, SU... " />
+            <marker date="1588166128185" expanded="true" signature="2548:2769" ph="SELECT sum(I... projects" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

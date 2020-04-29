@@ -94,14 +94,14 @@ class Project extends AbstractModel
      */
     public function getProjectsGroups(float $rate)
     {
-        //Я понимаю, что есть лучшее решение, но ничего изящнее не придулал.
+        //Я понимаю, что есть лучшее решение, но ничего изящнее не придумал.
         $budget = "IF (currency = 'RUB', budget / {$rate}, budget)";
 
-        $sql = "SELECT
-          (SELECT COUNT(*) FROM projects WHERE {$budget} < 500) AS g1,
-          (SELECT COUNT(*) FROM projects WHERE {$budget} >= 500 AND {$budget} < 1000) AS g2,
-          (SELECT COUNT(*) FROM projects WHERE {$budget} >= 1000 AND {$budget} < 5000) AS g3,
-          (SELECT COUNT(*) FROM projects WHERE {$budget} >= 5000) AS g4
+        $sql = "SELECT *,
+            SUM({$budget} > 500) as g1,
+            SUM({$budget} >= 500 AND {$budget} < 1000) as g2,
+            SUM({$budget} >= 1000 AND {$budget} < 5000) as g3,
+            SUM({$budget} >= 5000) as g4
           FROM projects WHERE budget IS NOT NULL";
 
         $stmt = $this->db->prepare($sql);
