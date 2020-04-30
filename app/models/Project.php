@@ -98,7 +98,7 @@ class Project extends AbstractModel
         $budget = "IF (currency = 'RUB', budget / {$rate}, budget)";
 
         $sql = "SELECT *,
-            SUM({$budget} > 500) as g1,
+            SUM({$budget} < 500) as g1,
             SUM({$budget} >= 500 AND {$budget} < 1000) as g2,
             SUM({$budget} >= 1000 AND {$budget} < 5000) as g3,
             SUM({$budget} >= 5000) as g4
